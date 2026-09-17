@@ -1,6 +1,14 @@
 # 🍳 Allrecipes Playwright E2E Automation Framework
+![Tests Passing](https://img.shields.io/badge/Tests-Passing-success?style=for-the-badge&logo=checkmarx&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-v1.50-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Node.js-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Allure Report](https://img.shields.io/badge/Allure_Report-v3-orange?style=for-the-badge&logo=allure&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Desktop_%7C_Mobile-blue?style=for-the-badge)
 
 A scalable, production-ready End-to-End (E2E) test automation framework built using **Playwright** and **JavaScript**, implementing the **Page Object Model (POM)** architectural pattern to automate and validate [Allrecipes.com](https://www.allrecipes.com/).
+
+### 🎥 Automated Test Execution Demo
+![Test Execution Demo](assets/test-execution.gif)
 
 ---
 
@@ -139,6 +147,9 @@ npx playwright test tests/authorPage.spec.js --headed
 ## Generating Allure Reports
 
 The framework is integrated with `allure-playwright` to capture test execution status, step logs, failure screenshots, video recordings, and Playwright traces.
+
+### 📊 Allure Test Execution Dashboard
+![Allure Report Dashboard](assets/allure-dashboard.png)
 
 > [!TIP]
 > **Automated Fresh Reports:** The framework is configured with a `globalSetup` hook that automatically deletes old results, videos, and traces from `./allure-results` and `./allure-report` before each test execution, ensuring each report reflects only the latest test run.
