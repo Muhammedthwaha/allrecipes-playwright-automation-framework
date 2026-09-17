@@ -1,0 +1,74 @@
+{
+    "seacrhData": {
+        "searchRecipe": "Chicken Parmesan",
+        "keyboardRecipe": "Lasagna",
+        "specialCharRecipe": "Mac & Cheese",
+        "reSearchRecipe": "Beef Stew",
+        "invalidSearch": "abcjjjkljdjfjs",
+        "whitespace": "    "
+    },
+    "recipePage": {
+        "heading": "Apple ‘Cider Bath’ Cinnamon Rolls",
+        "authorName": "John Mitzewich",
+        "breadcrumbs_3rd_text": "Pastries",
+        "3rd_breadcrumb_page_heading": "Pastries",
+        "recipe_Ingredients_multiplier": "2x",
+        "recipe_Ingredients_Name": "tablespoons unsalted butter, melted",
+        "recipe_Ingredients_Quantity": "12"
+    },
+    "socialMediaLinks": {
+        "facebook": "https://www.facebook.com/allrecipes",
+        "instagram": "https://www.instagram.com/allrecipes/",
+        "pinterest": "https://www.pinterest.com/allrecipes/",
+        "tiktok": "https://www.tiktok.com/@allrecipes",
+        "youtube": "https://www.youtube.com/user/allrecipes/videos"
+    },
+    "topCategoryNavigation": {
+        "dinnerTonightHeading": "Dinner Recipes",
+        "ingredientsHeading": "Ingredients A-Z",
+        "communityHeading": "Community"
+    },
+    "authorNames": {
+        "author1": "John Mitzewich",
+        "author2": "Nicole McLaughlin"
+    },
+    "authorDishName": {
+        "dish1": "Proper British Fish Cakes",
+        "dish2": "Slow Cooker Parmesan Garlic Chicken and Potatoes"
+    },
+    "howerDropdownNavigation": {
+        "mainHeading1": "Dinner Tonight",
+        "subHeading1": "5-Ingredient Dinners",
+        "mainHeading2": "Ingredients",
+        "subHeading2": " View All"
+    },
+    "aboutUsPage": {
+        "contactSectionSubHeading": "Submit a Help Request",
+        "contactSectionContactNumber": "(800) 837-9017"
+    },
+    "newsPage": {
+        "expectedHeading": "Food News and Trends",
+        "expectedArticleHeading": "Starbucks Just Announced a Brand-New Drink That Has Fans ‘Counting Down the Days’ Until Launch"
+    },
+    "tagname": {
+        "tag1": "chicken"
+    },
+    "ingredientsPage": {
+        "expectedHeading": "Ingredients A-Z",
+        "targetLetter": "C",
+        "targetIngredient": "Chicken",
+        "searchItem": "Garlic"
+    },
+    "authorsList": [
+        {
+            "name": "John Mitzewich",
+            "url": "https://www.allrecipes.com/author/chef-john/",
+            "expectedTitle": "Chef John"
+        },
+        {
+            "name": "Nicole McLaughlin",
+            "url": "https://www.allrecipes.com/author/nicole-mclaughlin/",
+            "expectedTitle": "Nicole McLaughlin"
+        }
+    ]
+}

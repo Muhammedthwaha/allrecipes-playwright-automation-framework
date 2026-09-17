@@ -1,0 +1,14 @@
+{
+  "name": "allrecipes-playwright-automation-framework",
+  "version": "1.0.0",
+  "description": "E2E Playwright Automation Framework for Allrecipes.com with Page Object Model and Allure Reporting",
+  "main": "playwright.config.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "allure-playwright": "^3.0.0",
+    "dotenv": "^16.4.7"
+  }
+}
