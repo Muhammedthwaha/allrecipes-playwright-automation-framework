@@ -8,7 +8,9 @@
 A scalable, production-ready End-to-End (E2E) test automation framework built using **Playwright** and **JavaScript**, implementing the **Page Object Model (POM)** architectural pattern to automate and validate [Allrecipes.com](https://www.allrecipes.com/).
 
 ### 🎥 Automated Test Execution Demo
-![Test Execution Demo](assets/test-execution.gif)
+<p align="center">
+  <img src="assets/test-execution.gif" alt="Automated Test Execution Demo" width="100%" />
+</p>
 
 ---
 
