@@ -9,7 +9,7 @@ A scalable, production-ready End-to-End (E2E) test automation framework built us
 
 ### 🎥 Automated Test Execution Demo
 <p align="center">
-  <img src="assets/test-execution.gif" alt="Automated Test Execution Demo" width="100%" />
+  <img src="assets/test-execution.gif" alt="Automated Test Execution Demo" width="70%" />
 </p>
 
 ---
