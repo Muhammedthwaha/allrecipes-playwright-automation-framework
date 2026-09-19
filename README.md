@@ -122,7 +122,7 @@ npx playwright test --project=firefox --headed
 # Run only on Mobile Android (Pixel 7)
 npx playwright test --project=Android --headed
 
-# Run only on Mobile iPhone (iOS 14)
+# Run only on Mobile iPhone (iOS - iphone 14)
 npx playwright test --project=iPhone --headed
 
 ```
