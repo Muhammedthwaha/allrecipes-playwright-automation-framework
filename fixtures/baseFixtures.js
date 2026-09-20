@@ -9,59 +9,47 @@ const test = base.extend({
         await use(pomanager);
     },
 
-    // Fixture for HomePage
-    homePage: async ({ page }, use) => {
-        const pomanager = new PoManager(page);
-        const homePage = pomanager.getHomePage();
+    // 2. Page fixtures that DEPEND on poManager
+    homePage: async ({ poManager }, use) => {        
+        const homePage = poManager.getHomePage();
         await use(homePage);
     },
-
-    // Fixture for RecipePage
-    recipePage: async ({ page }, use) => {
-        const pomanager = new PoManager(page);
-        const recipePage = pomanager.getRecipePage();
+    recipePage: async ({ poManager }, use) => {      
+        const recipePage = poManager.getRecipePage();
         await use(recipePage);
     },
-
-    // Fixture for AuthorPage
-    authorPage: async ({ page }, use) => {
-        const pomanager = new PoManager(page);
-        const authorPage = pomanager.getAuthorPage();
+    authorPage: async ({ poManager }, use) => {      
+        const authorPage = poManager.getAuthorPage();
         await use(authorPage);
     },
 
     // About Us Page
-    aboutUsPage: async ({ page }, use) => {
-        const pomanager = new PoManager(page);
-        const aboutUsPage = pomanager.getAboutUsPage();
+    aboutUsPage: async ({ poManager }, use) => {
+        const aboutUsPage = poManager.getAboutUsPage();
         await use(aboutUsPage);
     },
 
     // News Page
-    newsPage: async ({ page }, use) => {
-        const pomanager = new PoManager(page);
-        const newsPage = pomanager.getNewsPage();
+    newsPage: async ({ poManager }, use) => {
+        const newsPage = poManager.getNewsPage();
         await use(newsPage);
     },
 
     // Fixture for IngredientsPage
-    ingredientsPage: async ({ page }, use) => {
-        const pomanager = new PoManager(page);
-        const ingredientsPage = pomanager.getIngredientsPage();
+    ingredientsPage: async ({ poManager }, use) => {
+        const ingredientsPage = poManager.getIngredientsPage();
         await use(ingredientsPage);
     },
 
     // Fixture for SearchResultsPage 
-    searchResultsPage: async ({ page }, use) => {
-        const pomanager = new PoManager(page);
-        const searchResultsPage = pomanager.getSearchResultsPage();
+    searchResultsPage: async ({ poManager }, use) => {
+        const searchResultsPage = poManager.getSearchResultsPage();
         await use(searchResultsPage);
     },
 
     // Fixture for MobilePage
-    mobilePage: async ({ page }, use) => {
-        const pomanager = new PoManager(page);
-        const mobilePage = pomanager.getMobilePage();
+    mobilePage: async ({ poManager }, use) => {
+        const mobilePage = poManager.getMobilePage();
         await use(mobilePage);
     },
 
