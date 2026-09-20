@@ -1,15 +1,18 @@
 const path = require('path');
 
 async function capturePageScreenshot(page, folderName, screenShotName){
-    const timeStamp = new Date().toISOString().replace(/[:.]/g, '-');
-    const filePath = path.join(__dirname, `../screenshots/${folderName}/${screenShotName}_${timeStamp}.png`);
+    // 1. Automatically get browser name ('chromium', 'firefox', etc.)
+    const browserName = page.context().browser()?.browserType().name() || 'browser'
+    const filePath = path.join(__dirname, `../screenshots/${folderName}/${screenShotName}_${browserName}.png`);
     await page.screenshot({ path: filePath, fullPage: true});
     return filePath;
 }
 
 async function captureElementScreenshot(locator, folderName, screenShotName){
-    const timeStamp = new Date().toISOString().replace(/[:.]/g, '-');
-    const filePath = path.join(__dirname, `../screenshots/${folderName}/${screenShotName}_${timeStamp}.png`);
+    // 1. Get page from locator, then get browser name
+    const page = locator.page();
+    const browserName = page?.context().browser()?.browserType().name() || 'browser';
+    const filePath = path.join(__dirname, `../screenshots/${folderName}/${screenShotName}_${browserName}.png`);
     await locator.screenshot({ path: filePath});
     return filePath;
 }
