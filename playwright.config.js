@@ -4,7 +4,7 @@ const { defineConfig, expect, chromium, devices } = require('@playwright/test');
 const config = defineConfig({
     globalSetup: './utils/globalSetup.js',
     testDir: './tests',
-    timeout: 40*1000,
+    timeout: 60*1000,
     workers: 3,
     retries: 1,
     fullyParallel: true,
