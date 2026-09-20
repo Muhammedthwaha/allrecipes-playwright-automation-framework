@@ -5,7 +5,7 @@ const config = defineConfig({
     globalSetup: './utils/globalSetup.js',
     testDir: './tests',
     timeout: 60*1000,
-    workers: 3,
+    workers: 2,
     retries: 1,
     fullyParallel: true,
     expect: {
